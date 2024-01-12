@@ -1,0 +1,8 @@
+# avoid uploading personal data
+data/
+
+# ctags
+tags
+
+# tmp files
+*~
