@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  oscar:
+    image: rogerrum/docker-oscar:0.0.2
+    ports:
+      - 80:8080
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
+      - type: bind
+        source: ${SD_CARD_PATH}
+        target: /airsense
+        read_only: true

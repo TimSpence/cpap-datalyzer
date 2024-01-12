@@ -6,3 +6,6 @@ tags
 
 # tmp files
 *~
+
+# Docker environment
+.env
