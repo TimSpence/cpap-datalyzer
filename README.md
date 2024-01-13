@@ -5,15 +5,8 @@ Ingest [European Data Format](https://en.wikipedia.org/wiki/European_Data_Format
 
 ## Usage
 At the moment, this project supports two features:
-1. Storage of usage data on your host
+1. Storage of usage data on a Docker volume
 2. Visualize data using OSCAR
-
-
-### Commands
-Copy nightly usage data from SD card on Linux or Mac systems:
-```
-rsync -av /path/to/your/SDcard/* data/
-```
 
 ### Docker
 This project relies on Docker to avoid installing dependencies on the host.  If your system can run Docker, you are good to go.
